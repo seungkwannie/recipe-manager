@@ -9,7 +9,6 @@ def main():
     # Initialize your GUI class from the ui module
     app = RecipeManagerGUI(root)
 
-    # Start the event loop (Equivalent to iced::Result return in Rust)
     root.mainloop()
 
 if __name__ == "__main__":
